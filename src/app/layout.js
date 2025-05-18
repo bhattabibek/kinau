@@ -1,7 +1,7 @@
-
 import "./globals.css";
 import Header from "./components/Header";
 import BentoGrid from "./components/BentoGrid";
+import Topbar from "./components/Topbar";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,14 +10,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-   <>
-       <html lang="en">
-       <body>
-      <Header/>
-      <BentoGrid/>
-      <main>{children}</main>
-      </body>
+    <>
+      <html lang="en">
+        <body>
+          <Topbar />
+          <Header />
+          <BentoGrid />
+          <main>{children}</main>
+        </body>
       </html>
-      </>
+    </>
   );
 }
