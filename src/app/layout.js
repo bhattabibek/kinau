@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import BentoGrid from "./components/BentoGrid";
 import Topbar from "./components/Topbar";
 import Footer from "./components/Footer";
+import ProductCard from "./components/ProductCard";
 
 export const metadata = {
   title: "Create Next App",
@@ -17,7 +18,9 @@ export default function RootLayout({ children }) {
           <Topbar />
           <Header />
           <BentoGrid />
+         
           <main>{children}</main>
+          <ProductCard/>
           <Footer/>
         </body>
       </html>
