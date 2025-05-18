@@ -4,19 +4,20 @@ import React from "react";
 import { CiStar } from "react-icons/ci";
 import Image from "next/image";
 
-const ProductCard = () => {
+
+const ProductCard = ({product}) => {
   return (
     <>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 lg:flex lg:flex-row md:flex md:flex-row md:flex-wrap">
         {/* Card 1 */}
         <div className="shadow-2xl text-center max-w-sm mx-auto">
           <div className="relative overflow-hidden">
             <Image
               src="/sony.jpg"
-              width={340}
+              width={250}
               height={170}
               alt="Samsung Headphones"
-              className="mx-auto mb-4 rounded transition-transform duration-300 transform hover:scale-110"
+              className="mx-auto rounded transition-transform duration-300 transform hover:scale-110"
             />
           </div>
 
@@ -41,7 +42,7 @@ const ProductCard = () => {
           <div className="relative overflow-hidden">
             <Image
               src="/sony.jpg"
-              width={340}
+              width={250}
               height={170}
               alt="Samsung Headphones"
               className="mx-auto mb-4 rounded transition-transform duration-300 transform hover:scale-110"
@@ -69,7 +70,7 @@ const ProductCard = () => {
           <div className="relative overflow-hidden">
             <Image
               src="/sony.jpg"
-              width={340}
+              width={250}
               height={170}
               alt="Samsung Headphones"
               className="mx-auto mb-4 rounded transition-transform duration-300 transform hover:scale-110"
@@ -95,7 +96,7 @@ const ProductCard = () => {
           <div className="relative overflow-hidden">
             <Image
               src="/sony.jpg"
-              width={340}
+              width={250}
               height={170}
               alt="Samsung Headphones"
               className="mx-auto mb-4 rounded transition-transform duration-300 transform hover:scale-110"

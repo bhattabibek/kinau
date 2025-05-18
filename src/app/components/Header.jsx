@@ -20,7 +20,7 @@ const Header = () => {
        <div className='inline-flex gap-4 '>
        <button className='bg-[#136892] text-white p-2 px-5 rounded-sm hover:bg-[#1e2021] cursor-pointer '><CiLogin className='inline-flex text-center' size={25} />Login</button>
      
-        <button className='bg-[#0c0c0c] text-white p-2 px-5 rounded-sm cursor-pointer'><CiUser className='inline-flex text-center ' size={25}/>Register</button>
+        <button className='bg-[#0c0c0c] text-white p-2 px-3 rounded-sm cursor-pointer'><CiUser className='inline-flex text-center ' size={25}/>Register</button>
        </div>
        </div>
      
